@@ -77,28 +77,28 @@ const data = {
         description: "Rich red matte lipstick for a bold, long-lasting look."
       },
       {
-        name: "Creamy Nude Lipstick",
-        slug: "creamy-nude-lipstick",
+        name: "Apple Red Lipstick",
+        slug: "apple-red-lipstick",
         category: "lipsticks",
         image: "../src/assets/images/lipstick2.jpeg",
         price: 8.99,
         countInStock: 45,
-        brand: "Natural Beauty",
+        brand: "Fruitful Shades",
         rating: 4.3,
         numReviews: 22,
-        description: "Soft nude shade with a creamy texture for everyday wear."
+        description: "Vibrant red shade with a creamy texture for a bold and alluring look."
       },
       {
-        name: "Glossy Plum Lipstick",
-        slug: "glossy-plum-lipstick",
-        category: "lipsticks",
+        name: "Long-Wear Lippie Pencil Set",
+        slug: "long-wear-lippie-pencil-set",
+        category: "lippie-pencils",
         image: "../src/assets/images/lipstick3.jpeg",
         price: 10.50,
         countInStock: 42,
-        brand: "Gloss Goddess",
+        brand: "Lip Liner Luxe",
         rating: 4.6,
         numReviews: 28,
-        description: "Vibrant plum shade with a glossy finish for a stunning look."
+        description: "Set of long-wear lippie pencils for a captivating and enduring look."
       },
       // Eyeshadow Palettes
       {
@@ -114,16 +114,16 @@ const data = {
         description: "Palette of warm shades inspired by sunset colors."
       },
       {
-        name: "Ocean Breeze Eyeshadow Palette",
-        slug: "ocean-breeze-eyeshadow-palette",
+        name: "Peachy Delight Eyeshadow Palette",
+        slug: "peachy-delight-eyeshadow-palette",
         category: "eyeshadow-palettes",
         image: "../src/assets/images/eyeshadow2.jpeg",
         price: 21.50,
         countInStock: 22,
-        brand: "Aqua Shades",
+        brand: "Peachy Tones",
         rating: 4.5,
         numReviews: 19,
-        description: "Cool-toned palette reflecting the colors of the ocean."
+        description: "Warm-toned palette inspired by the soft and inviting shades of peach."
       },
       // Serums
       {
