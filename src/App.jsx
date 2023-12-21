@@ -1,6 +1,5 @@
-import { useState } from 'react'
 import Navbar from './components/Navbar'
-import Products from './components/Products'
+import HomeScreen from './components/HomeScreen'
 import './App.css'
 
 function App() {
@@ -8,7 +7,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <Products />
+      <HomeScreen />
+    
     </>
   )
 }
