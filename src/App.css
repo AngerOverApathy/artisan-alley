@@ -4,3 +4,14 @@ body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: #F8EDE8;
 }
+
+header {
+  background-color: #732C2C;
+  padding: 1rem;
+}
+
+header a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
