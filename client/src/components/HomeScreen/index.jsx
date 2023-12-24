@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import data from '../../data';
 import './style.css';
+import data from '../../data';
 
 export default function HomeScreen() {
     return (
