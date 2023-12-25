@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
+import data from '../../../../server/data';
 import './style.css';
-import data from '../../data';
 
 export default function HomeScreen() {
+    const [products, setProducts] = useState([]);
+    useEffect(() => {
+        const fetchData = async () => {
+            const result = await axios.get('/api/products');
+            console.log(result.data)
+            setProducts(result.data);
+        };
+        fetchData();
+    }, []);
     return (
         <>
             <main>
